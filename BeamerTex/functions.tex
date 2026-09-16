@@ -261,7 +261,6 @@ We will {\bf never} use this second approach - put {\tt main()} first with the p
 \begin{itemize}[<+->]
 \item In C99 the {\tt inline} modifier was introduced
 \url{https://en.wikipedia.org/wiki/Inline_function}
-\end{itemize}
 \begin{quote}
 ... serves as a compiler directive that suggests (but does not
 require) that the compiler substitute the body of the function inline by
@@ -269,6 +268,8 @@ performing inline expansion, i.e. by inserting the function code at the
 address of each function call, thereby saving the overhead of a function
 call.
 \end{quote}
+\item Since most compilers have the ability to do this for you, you never need to do this.
+\end{itemize}
 \end{column}
 
 \begin{column}{0.40\textwidth}
