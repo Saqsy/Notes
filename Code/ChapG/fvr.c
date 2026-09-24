@@ -2,7 +2,7 @@
 #include <assert.h>
 
 // Argument 1 is temperature 
-// Argument 2 is scale (0=>Celsius, 1=>Farenheit)
+// Argument 2 is scale (0=>Celsius, 1=>Fahrenheit)
 int fvr(double t, int s);
 
 int main(void)
